@@ -1,6 +1,6 @@
 """Test Demo Web Shop feature tests."""
-
 # To generate code snippet use "pytest-bdd generate .\tests\features\demo_webshop.feature" code
+
 from pytest_bdd import *
 
 
