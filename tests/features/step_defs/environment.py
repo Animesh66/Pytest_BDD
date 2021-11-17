@@ -7,7 +7,7 @@ import allure
 
 # This is behave hook(before_scenario,after_scenario, before_step, after_step, before_all, after_all)
 
-def before_scenario(context, driver):
+def pytest_bdd_before_scenario(context, driver):
     if configuration_reader("basic configure", "browser") == "chrome":
         context.driver = webdriver.Chrome(ChromeDriverManager().install())
         context.driver.maximize_window()
@@ -18,7 +18,7 @@ def before_scenario(context, driver):
         context.driver.implicitly_wait(10)
 
 
-def after_scenario(context, driver):
+def pytest_bdd_after_scenario(context, driver):
     context.driver.quit()
 
 
