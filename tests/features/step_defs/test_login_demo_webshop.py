@@ -1,7 +1,8 @@
 """Test Demo Web Shop feature tests."""
 # To generate code snippet use "pytest-bdd generate .\tests\features\demo_webshop.feature" code
-
+import pytest
 from pytest_bdd import scenario, given, when, then, parsers
+from selenium import webdriver
 
 
 @scenario('features\demo_webshop.feature', 'Test Login functionality of Demo webshop')
