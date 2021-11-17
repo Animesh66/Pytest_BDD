@@ -1,4 +1,5 @@
 """Test Demo Web Shop feature tests."""
+
 # To generate code snippet use "pytest-bdd generate .\tests\features\demo_webshop.feature" code
 from pytest_bdd import *
 
@@ -6,6 +7,7 @@ from pytest_bdd import *
 @scenario('features\demo_webshop.feature', 'Test Login functionality of Demo webshop')
 def test_login_functionality_of_demo_webshop():
     pass
+
 
 @given('user opens the Demo Web Shop url')
 def user_opens_the_demo_web_shop_url():
