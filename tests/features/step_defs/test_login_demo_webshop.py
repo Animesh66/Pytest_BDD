@@ -19,7 +19,7 @@ def click_log_in_button(get_browser):
     pass
 
 
-@when(parsers.parse('user enter the <email> and <password>'))
+@when(parsers.parse('user enter the {email} and {password}'))
 def enter_email_password(get_browser):
     pass
 
@@ -29,6 +29,6 @@ def landed_on_the_home_page(get_browser):
     pass
 
 
-@then('verify the page title is matching <home_page_title>')
+@then(parsers.parse('verify the page title is matching {home_page_title}'))
 def verify_home_page_title(get_browser):
     pass
