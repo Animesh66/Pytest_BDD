@@ -1,8 +1,8 @@
 #                                """Test Demo Web Shop feature tests."""
 
 # To generate code snippet use "pytest-bdd generate .\tests\features\demo_webshop.feature" code
-import time
 
+import time
 import pytest
 from pytest_bdd import scenario, given, when, then, parsers
 
