@@ -1,6 +1,8 @@
 #                                """Test Demo Web Shop feature tests."""
 
 # To generate code snippet use "pytest-bdd generate .\tests\features\demo_webshop.feature" code
+import time
+
 import pytest
 from pytest_bdd import scenario, given, when, then, parsers
 
@@ -28,10 +30,11 @@ def enter_email_password(get_browser, email, password):
 @pytest.mark.usefixtures("get_browser")
 @when('click on the LOG IN button')
 def click_log_in_button(get_browser):
-    get_browser.find_element_by_xpath("//button[@type='submit']")
+    get_browser.find_element_by_xpath("//button[@type='submit']").click()
 
 
 @then('user is able to successfully landed on the Home page')
 @then(parsers.parse('verify the page title is matching {home_page_title}'))
 def verify_home_page_title(get_browser, home_page_title):
+    time.sleep(2)
     assert home_page_title in get_browser.title, "Page title does not match. Landed on incorrect page"

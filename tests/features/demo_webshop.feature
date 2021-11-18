@@ -6,6 +6,6 @@ Feature: Test Demo Web Shop
     Then user is able to successfully landed on the Home page
     And verify the page title is matching <home_page_title>
     Examples:
-      | email               | password  | home_page_title                        |
-      | admin@yourstore.com | admin     | Dashboard / nopCommerce administration |
-      | test@email.com      | Welcome@1 | Dashboard / nopCommerce administration |
+      |email               |password  |home_page_title                        |
+      |admin@yourstore.com |admin     |Dashboard / nopCommerce administration |
+      |test@email.com      |Welcome@1 |Dashboard / nopCommerce administration |
