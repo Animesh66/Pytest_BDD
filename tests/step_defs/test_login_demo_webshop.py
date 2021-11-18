@@ -18,6 +18,7 @@ def test_verify_product_review():
     pass
 
 
+# @scenarios('..\\features\\demo_webshop.feature')
 @given('user opens the Demo Web Shop url')
 def open_demo_web_shop_url(get_browser):
     get_browser.login = LoginPage(get_browser)
