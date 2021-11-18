@@ -85,11 +85,7 @@ class BasePage:
             wait.until(EC.element_to_be_clickable(element))
             element.click()
 
-    # def get_web_table_column_values(self, column_locator):
-    #     column_values = []
-    #     columns = self.driver.find_element_by_xpath(configuration_reader("locators", column_locator))
-    #     total_column = len(columns)
-    #     for column in range(1, total_column + 1):
-
+    def open_url(self):
+        self.driver.get(configuration_reader("basic configuration", "test_url"))
 
 
