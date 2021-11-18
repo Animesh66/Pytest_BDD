@@ -3,8 +3,9 @@
 # To generate code snippet use "pytest-bdd generate .\tests\features\demo_webshop.feature" code
 
 from pytest_bdd import scenarios, given, when, then, parsers
-
+from tests.features.Page_Objects.Home_Page import HomePage
 from tests.features.Page_Objects.Login_Page import LoginPage
+from tests.features.Page_Objects.Product_Review_Page import ProductReviewPage
 
 
 @scenarios('..\\features\\demo_webshop.feature')
@@ -31,3 +32,22 @@ def click_log_in_button(get_browser):
 @then(parsers.parse('verify the page title is matching {home_page_title}'))
 def verify_home_page_title(get_browser, home_page_title):
     get_browser.login.verify_homepage_title(home_page_title)
+
+
+#                                       ****** Verify review page Scenario ******
+
+@then('user click on Catalog menu')
+def click_catalog_menu(get_browser):
+    get_browser.home = HomePage(get_browser)
+    get_browser.home.navigate_to_catalog()
+
+
+@then('user click on Product Review submenu')
+def click_product_review(get_browser):
+    get_browser.home.navigate_product_review()
+
+
+@then(parsers.parse('user navigated to {product_review_page} title'))
+def verify_review_title(get_browser, product_review_page):
+    get_browser.product_review = ProductReviewPage(get_browser)
+    get_browser.product_review.verify_review_title(product_review_page)
