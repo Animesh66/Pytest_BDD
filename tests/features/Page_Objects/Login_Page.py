@@ -13,3 +13,6 @@ class LoginPage(BasePage):
     def perform_login(self):
         self.click("login_button_XPATH")
 
+    def verify_homepage_title(self, title):
+        assert title in self.driver.title, "Actual page title does not match with expected page title"
+
