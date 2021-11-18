@@ -13,5 +13,5 @@ class ProductReviewPage(BasePage):
         self.type("created_to_date_XPATH", created_to_date)
         self.click("search_button_XPATH")
 
-    def verify_review_date(self):
-        pass
+    def verify_review_title(self, title):
+        assert title in self.driver.title, "Actual page title does not match with expected page title"
