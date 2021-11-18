@@ -2,13 +2,20 @@
 
 # To generate code snippet use "pytest-bdd generate .\tests\features\demo_webshop.feature" code
 
-from pytest_bdd import scenarios, given, when, then, parsers
+from pytest_bdd import scenarios, given, when, then, parsers, scenario
 from tests.features.Page_Objects.Home_Page import HomePage
 from tests.features.Page_Objects.Login_Page import LoginPage
 from tests.features.Page_Objects.Product_Review_Page import ProductReviewPage
 
 
-@scenarios('..\\features\\demo_webshop.feature')
+@scenario('..\\features\\demo_webshop.feature', 'Test Login functionality of Demo webshop')
+def test_login_demo_webshop():
+    pass
+
+
+@scenario('..\\features\\demo_webshop.feature', 'Verify product review page')
+def test_verify_product_review():
+    pass
 
 
 @given('user opens the Demo Web Shop url')
