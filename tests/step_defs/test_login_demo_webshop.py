@@ -8,6 +8,8 @@ from tests.features.Page_Objects.Login_Page import LoginPage
 from tests.features.Page_Objects.Product_Review_Page import ProductReviewPage
 
 
+# @scenarios('..\\features\\demo_webshop.feature')
+
 @scenario('..\\features\\demo_webshop.feature', 'Test Login functionality of Demo webshop')
 def test_login_demo_webshop():
     pass
@@ -18,7 +20,6 @@ def test_verify_product_review():
     pass
 
 
-# @scenarios('..\\features\\demo_webshop.feature')
 @given('user opens the Demo Web Shop url')
 def open_demo_web_shop_url(get_browser):
     get_browser.login = LoginPage(get_browser)
