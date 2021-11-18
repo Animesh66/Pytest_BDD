@@ -33,8 +33,10 @@ def click_log_in_button(get_browser):
     get_browser.find_element_by_xpath("//button[@type='submit']").click()
 
 
-@then('user is able to successfully landed on the Home page')
 @then(parsers.parse('verify the page title is matching {home_page_title}'))
 def verify_home_page_title(get_browser, home_page_title):
     time.sleep(2)
-    assert home_page_title in get_browser.title, "Page title does not match. Landed on incorrect page"
+    page_title = get_browser.title
+    print("Page title is: ", page_title)
+    print("Home page title is: ", home_page_title)
+    assert home_page_title in page_title, "Page title does not match. Landed on incorrect page"
