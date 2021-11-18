@@ -9,8 +9,6 @@ from tests.features.Page_Objects.Product_Review_Page import ProductReviewPage
 
 
 @scenarios('..\\features\\demo_webshop.feature')
-def test_login_functionality_of_demo_webshop():
-    pass
 
 
 @given('user opens the Demo Web Shop url')
@@ -36,13 +34,13 @@ def verify_home_page_title(get_browser, home_page_title):
 
 #                                       ****** Verify review page Scenario ******
 
-@then('user click on Catalog menu')
+@given('user click on Catalog menu')
 def click_catalog_menu(get_browser):
     get_browser.home = HomePage(get_browser)
     get_browser.home.navigate_to_catalog()
 
 
-@then('user click on Product Review submenu')
+@when('user click on Product Review submenu')
 def click_product_review(get_browser):
     get_browser.home.navigate_product_review()
 

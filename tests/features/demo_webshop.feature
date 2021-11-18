@@ -18,9 +18,9 @@ Feature: Test Demo Web Shop
       |Dashboard / nopCommerce administration |
 
     Scenario Outline: Verify product review page
-      Then user click on Catalog menu
-      And user click on Product Review submenu
-      And user navigated to <product_review_page> title
+      Given user click on Catalog menu
+      When user click on Product Review submenu
+      Then user navigated to <product_review_page> title
       Examples:
       | product_review_page                         |
       | Product reviews / nopCommerce administration|
