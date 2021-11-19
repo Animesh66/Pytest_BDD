@@ -1,0 +1,28 @@
+2021-11-19 11:56:07,118 - Base_Page.py:[38] - [INFO] - Typing in an element: email_ID value entered as : admin@yourstore.com
+2021-11-19 11:56:07,203 - Base_Page.py:[38] - [INFO] - Typing in an element: password_ID value entered as : admin
+2021-11-19 11:56:14,286 - Base_Page.py:[24] - [INFO] - Clicking on an element: login_button_XPATH
+2021-11-19 11:56:23,615 - Base_Page.py:[38] - [INFO] - Typing in an element: email_ID value entered as : admin@yourstore.com
+2021-11-19 11:56:23,688 - Base_Page.py:[38] - [INFO] - Typing in an element: password_ID value entered as : admin
+2021-11-19 11:56:30,826 - Base_Page.py:[24] - [INFO] - Clicking on an element: login_button_XPATH
+2021-11-19 11:56:40,330 - Base_Page.py:[38] - [INFO] - Typing in an element: email_ID value entered as : test@email.com
+2021-11-19 11:56:40,408 - Base_Page.py:[38] - [INFO] - Typing in an element: password_ID value entered as : Welcome@1
+2021-11-19 11:56:40,944 - Base_Page.py:[24] - [INFO] - Clicking on an element: login_button_XPATH
+2021-11-19 11:56:49,119 - Base_Page.py:[38] - [INFO] - Typing in an element: email_ID value entered as : test@email.com
+2021-11-19 11:56:49,180 - Base_Page.py:[38] - [INFO] - Typing in an element: password_ID value entered as : Welcome@1
+2021-11-19 11:56:50,684 - Base_Page.py:[24] - [INFO] - Clicking on an element: login_button_XPATH
+2021-11-19 11:56:58,510 - Base_Page.py:[38] - [INFO] - Typing in an element: email_ID value entered as : admin@yourstore.com
+2021-11-19 11:56:58,576 - Base_Page.py:[38] - [INFO] - Typing in an element: password_ID value entered as : admin
+2021-11-19 11:57:04,515 - Base_Page.py:[24] - [INFO] - Clicking on an element: login_button_XPATH
+2021-11-19 11:57:07,575 - Base_Page.py:[24] - [INFO] - Clicking on an element: catalog_XPATH
+2021-11-19 11:57:09,652 - Base_Page.py:[24] - [INFO] - Clicking on an element: product_review_XPATH
+2021-11-19 11:57:15,654 - Base_Page.py:[38] - [INFO] - Typing in an element: email_ID value entered as : admin@yourstore.com
+2021-11-19 11:57:15,715 - Base_Page.py:[38] - [INFO] - Typing in an element: password_ID value entered as : admin
+2021-11-19 11:57:20,068 - Base_Page.py:[24] - [INFO] - Clicking on an element: login_button_XPATH
+2021-11-19 11:57:23,133 - Base_Page.py:[24] - [INFO] - Clicking on an element: catalog_XPATH
+2021-11-19 11:57:24,713 - Base_Page.py:[24] - [INFO] - Clicking on an element: product_review_XPATH
+2021-11-19 11:57:31,808 - Base_Page.py:[38] - [INFO] - Typing in an element: email_ID value entered as : test@email.com
+2021-11-19 11:57:31,868 - Base_Page.py:[38] - [INFO] - Typing in an element: password_ID value entered as : Welcome@1
+2021-11-19 11:57:32,377 - Base_Page.py:[24] - [INFO] - Clicking on an element: login_button_XPATH
+2021-11-19 11:57:52,099 - Base_Page.py:[38] - [INFO] - Typing in an element: email_ID value entered as : test@email.com
+2021-11-19 11:57:52,161 - Base_Page.py:[38] - [INFO] - Typing in an element: password_ID value entered as : Welcome@1
+2021-11-19 11:57:52,697 - Base_Page.py:[24] - [INFO] - Clicking on an element: login_button_XPATH
