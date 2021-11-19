@@ -41,7 +41,7 @@ def verify_home_page_title(get_browser, home_page_title):
     get_browser.login.verify_homepage_title(home_page_title)
 
 
-#                                       ****** Verify review page Scenario ******
+#                                    ****** Verify review page Scenario ******
 
 @given('user click on Catalog menu')
 def click_catalog_menu(get_browser):
