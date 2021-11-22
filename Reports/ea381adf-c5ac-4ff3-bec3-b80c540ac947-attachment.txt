@@ -1,0 +1,9 @@
+[32mINFO    [0m WDM:logger.py:22 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:12 Current google-chrome version is 95.0.4638
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 95.0.4638
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 95.0.4638
+[32mINFO    [0m WDM:logger.py:12 Trying to download new driver from https://chromedriver.storage.googleapis.com/95.0.4638.69/chromedriver_win32.zip
+[32mINFO    [0m WDM:logger.py:12 Driver has been saved in cache [C:\Users\Animesh_Mukherjee\.wdm\drivers\chromedriver\win32\95.0.4638.69]
+[32mINFO    [0m tests.features.Page_Objects.Base_Page:Base_Page.py:38 Typing in an element: email_ID value entered as : admin@yourstore.com
+[32mINFO    [0m tests.features.Page_Objects.Base_Page:Base_Page.py:38 Typing in an element: password_ID value entered as : admin
+[32mINFO    [0m tests.features.Page_Objects.Base_Page:Base_Page.py:24 Clicking on an element: login_button_XPATH
