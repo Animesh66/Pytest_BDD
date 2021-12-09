@@ -12,6 +12,7 @@ Feature: Test Demo Web Shop
 
     Scenario Outline: Test Login functionality of Demo webshop
       Then verify the page title is matching <home_page_title>
+
       Examples:
       |home_page_title                        |
       |Dashboard / nopCommerce administration |
@@ -21,6 +22,7 @@ Feature: Test Demo Web Shop
       Given user click on Catalog menu
       When user click on Product Review submenu
       Then user navigated to <product_review_page> title
+
       Examples:
       | product_review_page                         |
       | Product reviews / nopCommerce administration|
