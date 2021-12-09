@@ -2,7 +2,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import pytest
 from webdriver_manager.firefox import GeckoDriverManager
-from Utilities.utils_config_reader import configuration_reader
+
 
 
 @pytest.fixture()
