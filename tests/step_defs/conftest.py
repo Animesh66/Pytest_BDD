@@ -4,7 +4,6 @@ import pytest
 from webdriver_manager.firefox import GeckoDriverManager
 
 
-
 @pytest.fixture()
 def get_browser():
     driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
