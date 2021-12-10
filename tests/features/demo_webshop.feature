@@ -10,6 +10,7 @@ Feature: Test Demo Web Shop
       Given user opens the Demo Web Shop url
       When user enter the <email> and <password>
       And click on the LOG IN button
+
     @login-test
     Scenario Outline: Test Login functionality of Demo webshop
       Then verify the page title is matching <home_page_title>
@@ -18,6 +19,7 @@ Feature: Test Demo Web Shop
       |home_page_title                        |
       |Dashboard / nopCommerce administration |
       |Dashboard / nopCommerce administration |
+
     @verify-product
     Scenario Outline: Verify product review page
       Given user click on Catalog menu
