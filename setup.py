@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
-setup(name='ui_pytest_ecom_example',
+setup(name='Pytest_BDD',
       version='1.0',
-      description='Ecommerce project with collab f/w',
+      description='Framework developed using pytest_bdd library',
       author='Animesh Mukherjee',
       platforms='Web Application',
       packages=find_packages()
