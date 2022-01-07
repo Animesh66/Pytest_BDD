@@ -7,6 +7,13 @@ from tests.features.Page_Objects.Home_Page import HomePage
 from tests.features.Page_Objects.Login_Page import LoginPage
 from tests.features.Page_Objects.Product_Review_Page import ProductReviewPage
 
+# CONVERTERS = {
+#     "email": str,
+#     "password": str,
+#     "home_page_title": str,
+#     "product_review_page": str
+# }
+
 
 # @scenarios('..\\features\\demo_webshop.feature')
 
@@ -18,7 +25,6 @@ def test_login_demo_webshop():
 @scenario('..\\features\\demo_webshop.feature', 'Verify product review page')
 def test_verify_product_review():
     pass
-
 
 @given('user opens the Demo Web Shop url')
 def open_demo_web_shop_url(get_browser):
