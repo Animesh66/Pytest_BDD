@@ -4,6 +4,6 @@ setup(name='Pytest_BDD',
       version='1.0',
       description='Framework developed using pytest_bdd library',
       author='Animesh Mukherjee',
-      platforms='Web Application',
+      platforms='Windows, Mac , Linux',
       packages=find_packages()
       )
